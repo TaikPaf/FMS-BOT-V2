@@ -1,0 +1,14 @@
+{
+  "name": "fms-bot-v2",
+  "version": "1.0.0",
+  "description": "Bot discord des FMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanguy",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
