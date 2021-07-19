@@ -2,13 +2,18 @@
   "name": "fms-bot-v2",
   "version": "1.0.0",
   "description": "Bot discord des FMS",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tanguy",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "mariadb": "^2.5.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
   }
 }
